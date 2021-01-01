@@ -19,7 +19,7 @@ class node():
 
 class LinkedList(object):
     '''
-    Singly linked list class with 
+    Singly linked list class with add, add_first, remove, reverse, 
     '''
 
     def __init__(self):
