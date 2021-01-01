@@ -134,11 +134,4 @@ class LinkedList(object):
         self.first_node, self.last_node = self.last_node, self.first_node 
         self.last_node.next = None
 
-L = LinkedList()
-
-for i in range(1,6):
-    L.add(10*i)
-
-L.reverse()
-
 pass
