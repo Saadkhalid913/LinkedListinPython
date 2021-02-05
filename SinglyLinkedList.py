@@ -74,8 +74,8 @@ class LinkedList(object):
         if self.isempty():
             return
         if index == 0:
-            self.first_node = None
-            self.last_node = None
+            newnode = self.first_node.next 
+            self.first_node = newnode
             return
         
         # main loop
@@ -133,5 +133,4 @@ class LinkedList(object):
             node = nex
         self.first_node, self.last_node = self.last_node, self.first_node 
         self.last_node.next = None
-
-pass
+pass 
